@@ -1,0 +1,3 @@
+log_unexpected_stacktraces: true
+log_expected_stacktraces: false
+log_queries: false

@@ -1,0 +1,9 @@
+messages:
+    enable: "&6Qursed&eLand &7» &aRainbow enabled"
+    disable: "&6Qursed&eLand &7» &cRainbow disabled"
+    info: "&6Qursed&eLand &7» &eRainbow is a feature that makes white wool multi-colored."
+    lobbyOnly: "&6Qursed&eLand &7» &cYou can use this command only in the lobby!"
+    noPermission: "&6Qursed&eLand &7» §cYou dont have permission!"
+    reload: '&6Qursed&eLand &7» &aPlugin configuration reloaded!'
+    noReloadPermission: '&6Qursed&eLand &7» §cYou do not have permission to reload the plugin configuration.'
+    noInfoPermission: '&6Qursed&eLand &7» §cYou do not have permission to read info.'

@@ -1,0 +1,460 @@
+{
+	"sticks": [{
+			"name": "&8» &cStick",
+			"material": "STICK",
+			"permission": "none",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": " "
+		},
+		{
+			"name": "&8» &cBone",
+			"material": "BONE",
+			"permission": "gadgets.vip",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &dVIP"
+		},
+		{
+			"name": "&8» &cBlaze",
+			"material": "BLAZE_ROD",
+			"permission": "gadgets.vip",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &dVIP"
+		},
+		{
+			"name": "&8» &cArrow",
+			"material": "ARROW",
+			"permission": "gadgets.vip",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &dVIP"
+		},
+		{
+			"name": "&8» &cLever",
+			"material": "LEVER",
+			"permission": "gadgets.vip",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &dVIP"
+		},
+		{
+			"name": "&8» &cRedStone-Trorch",
+			"material": "REDSTONE_TORCH",
+			"permission": "gadgets.vip",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &dVIP"
+		},
+		{
+			"name": "&8» &cShears",
+			"material": "SHEARS",
+			"permission": "gadgets.vip",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &dVIP"
+		},
+		{
+			"name": "&8» &cLabel",
+			"material": "NAME_TAG",
+			"permission": "gadgets.vip",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &dVIP"
+		},
+		{
+			"name": "&8» &cPotato",
+			"material": "BAKED_POTATO",
+			"permission": "gadgets.vip",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &dVIP"
+		},
+		{
+			"name": "&8» &cPotato",
+			"material": "BAKED_POTATO",
+			"permission": "gadgets.vip",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &dVIP"
+		},
+		{
+			"name": "&8» &cGold-carrot",
+			"material": "GOLDEN_CARROT",
+			"permission": "gadgets.prem",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cMelon",
+			"material": "MELON",
+			"permission": "gadgets.prem",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cRose-Bush",
+			"material": "ROSE_BUSH",
+			"permission": "gadgets.prem",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cCookie",
+			"material": "COOKIE",
+			"permission": "gadgets.prem",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cCake",
+			"material": "CAKE",
+			"permission": "gadgets.prem",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cWheat",
+			"material": "WHEAT",
+			"permission": "gadgets.prem",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cDiamond-sword",
+			"material": "DIAMOND_SWORD",
+			"permission": "gadgets.prem",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cGold-sword",
+			"material": "GOLDEN_SWORD",
+			"permission": "gadgets.prem",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cIron-sword",
+			"material": "IRON_SWORD",
+			"permission": "gadgets.prem",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cStone-sword",
+			"material": "STONE_SWORD",
+			"permission": "gadgets.prem", 
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &6Prem"
+		},
+		{
+			"name": "&8» &cWooden-sword",
+			"material": "WOODEN_SWORD",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cDiamond-axe",
+			"material": "DIAMOND_AXE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cGold-axe",
+			"material": "GOLDEN_AXE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cIron-axe",
+			"material": "IRON_AXE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cStone-axe",
+			"material": "STONE_AXE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cWooden-axe",
+			"material": "WOODEN_AXE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cDiamond-hoe",
+			"material": "DIAMOND_HOE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cGolden-hoe",
+			"material": "GOLDEN_HOE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cIron-hoe",
+			"material": "IRON_HOE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cStone-hoe",
+			"material": "STONE_HOE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cWooden-hoe",
+			"material": "WOODEN_HOE",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cRed-banner",
+			"material": "RED_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cOrange-banner",
+			"material": "ORANGE_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cYellow-banner",
+			"material": "YELLOW_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cLight-BLue-banner",
+			"material": "LIGHT_BLUE_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cCyan-banner",
+			"material": "CYAN_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cBLue-banner",
+			"material": "BLUE_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cLime-banner",
+			"material": "LIME_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cGreen-banner",
+			"material": "GREEN_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cPurple-banner",
+			"material": "PURPLE_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cPink-banner",
+			"material": "PINK_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cMagenta-banner",
+			"material": "MAGENTA_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cWhite-banner",
+			"material": "WHITE_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cLight-gray-banner",
+			"material": "LIGHT_GRAY_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cGray-banner",
+			"material": "GRAY_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cGray-banner",
+			"material": "GRAY_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cBrown-banner",
+			"material": "BROWN_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		},
+		{
+			"name": "&8» &cBlack-banner",
+			"material": "BLACK_BANNER",
+			"permission": "gadgets.lord",
+			"loreUnlocked": "&aUnlocked",
+			"loreLocked": "&cRequires &bLord"
+		}
+	],
+	"blocks": [
+    {
+      "name": "&6Sandstone",
+      "material": "SANDSTONE",
+      "permission": "none",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": ""
+    },
+    {
+      "name": "&6Gold Block",
+      "material": "GOLD_BLOCK",
+      "permission": "gadgets.vip",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &dVip"
+    },
+    {
+      "name": "&6Diamond ore",
+      "material": "DIAMOND_ORE",
+      "permission": "gadgets.vip",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &dVip"
+    },
+    {
+      "name": "&6Packed Ice",
+      "material": "PACKED_ICE",
+      "permission": "gadgets.vip",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &dVip"
+    },
+    {
+      "name": "&6Nether Brick",
+      "material": "NETHER_BRICKS",
+      "permission": "gadgets.prem",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &6Prem"
+    },
+    {
+      "name": "&6Snow",
+      "material": "SNOW_BLOCK",
+      "permission": "gadgets.prem",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &6Prem"
+    },
+    {
+      "name": "&6Stone slab",
+      "material": "STONE_SLAB",
+      "permission": "gadgets.prem",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &6Prem"
+    },
+    {
+      "name": "&6Prismarine",
+      "material": "PRISMARINE",
+      "permission": "gadgets.prem",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &6Prem"
+    },
+    {
+      "name": "&6Cobblestone wall",
+      "material": "COBBLESTONE_WALL",
+      "permission": "gadgets.prem",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &6Prem"
+    },
+    {
+      "name": "&6Sea Lantern",
+      "material": "SEA_LANTERN",
+      "permission": "gadgets.prem",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &6Prem"
+    },
+    {
+      "name": "&6Slime block",
+      "material": "SLIME_BLOCK",
+      "permission": "gadgets.prem",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &6Prem"
+    },
+    {
+      "name": "&6Iron bars",
+      "material": "IRON_BARS",
+      "permission": "gadgets.lord",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &bLord"
+    },
+    {
+      "name": "&6Furnace",
+      "material": "FURNACE",
+      "permission": "gadgets.lord",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &bLord"
+    },
+    {
+      "name": "&6Crafting table",
+      "material": "CRAFTING_TABLE",
+      "permission": "gadgets.lord",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &bLord"
+    },
+    {
+      "name": "&6Ender chest",
+      "material": "ENDER_CHEST",
+      "permission": "gadgets.lord",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &bLord"
+    },
+    {
+      "name": "&6Chest",
+      "material": "CHEST",
+      "permission": "gadgets.lord",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &bLord"
+	},
+	{
+	  "name": "&6Rainbow block",
+      "material": "WHITE_WOOL",
+      "permission": "gadgets.lord",
+      "loreUnlocked": "&aUnlocked",
+      "loreLocked": "&cRequires &bLord"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+menu-settings:
+  name: '&8» &dMenu'
+  rows: 3
+  commands:
+  - menu
+  auto-refresh: 3
+  open-actions:
+  - ''
+  open-with-item:
+    material: 340
+    left-click: false
+    right-click: true
+1:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 1
+  POSITION-Y: 1
+  DURABILITY: 7
+2:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 2
+  POSITION-Y: 1
+  DURABILITY: 7
+3:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 3
+  POSITION-Y: 1
+  DURABILITY: 7
+4:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 4
+  POSITION-Y: 1
+  DURABILITY: 7
+5:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 5
+  POSITION-Y: 1
+  DURABILITY: 7
+6:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 6
+  POSITION-Y: 1
+  DURABILITY: 7
+7:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 7
+  POSITION-Y: 1
+  DURABILITY: 7
+8:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 8
+  POSITION-Y: 1
+  DURABILITY: 7
+9:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 9
+  POSITION-Y: 1
+  DURABILITY: 7
+10:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 9
+  POSITION-Y: 2
+  DURABILITY: 7
+11:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 7
+  POSITION-Y: 2
+  DURABILITY: 7
+13:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 5
+  POSITION-Y: 2
+  DURABILITY: 7
+15:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 3
+  POSITION-Y: 2
+  DURABILITY: 7
+16:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 1
+  POSITION-Y: 2
+  DURABILITY: 7
+17:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 9
+  POSITION-Y: 3
+  DURABILITY: 7
+18:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 7
+  POSITION-Y: 3
+  DURABILITY: 7
+19:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 6
+  POSITION-Y: 3
+  DURABILITY: 7
+20:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 5
+  POSITION-Y: 3
+  DURABILITY: 7
+21:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 4
+  POSITION-Y: 3
+  DURABILITY: 7
+22:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 3
+  POSITION-Y: 3
+  DURABILITY: 7
+23:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 1
+  POSITION-Y: 3
+  DURABILITY: 7
+24:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 2
+  POSITION-Y: 3
+  DURABILITY: 7
+25:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 8
+  POSITION-Y: 3
+  DURABILITY: 7
+settings:
+  ACTIONS:
+  - settings
+  NAME: '&8» &dSettings'
+  MATERIAL: 356
+  POSITION-X: 2
+  POSITION-Y: 2
+gadgets:
+  ACTIONS:
+  - gadgets
+  NAME: '&8» &dGadgets'
+  MATERIAL: CHEST
+  POSITION-X: 4
+  POSITION-Y: 2
+blocks:
+  ACTIONS:
+  - deathresetcmd
+  NAME: '&8» &dDeathReset'
+  MATERIAL: REDSTONE_BLOCK 
+  POSITION-X: 6
+  POSITION-Y: 2
+  DURABILITY: 1
+features:
+  ACTIONS:
+  - features
+  NAME: '&8» &dFeatures' 
+  MATERIAL: SLIME_BALL
+  POSITION-X: 8
+  POSITION-Y: 2

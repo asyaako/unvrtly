@@ -1,0 +1,81 @@
+default:
+  items:
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_INFINITE: 1
+        repair-cost: 1
+        Unbreakable: true
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      type: SANDSTONE
+      amount: 64
+    '8':
+      ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+    '7':
+      ==: org.bukkit.inventory.ItemStack
+      type: WEB
+      amount: 3
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+  armor:
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+  symbol:
+    ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 10
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Normal
+  prefix: §6Normal
+kits:
+  default: default
+  view:
+    selection:
+      '1': default
+STICK: {}

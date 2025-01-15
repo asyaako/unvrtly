@@ -1,0 +1,43 @@
+# ██████╗░░█████╗░███╗░░██╗██████╗░░█████╗░███╗░░░███╗░██████╗░░█████╗░██████╗░░██████╗░███████╗████████╗
+# ██╔══██╗██╔══██╗████╗░██║██╔══██╗██╔══██╗████╗░████║██╔════╝░██╔══██╗██╔══██╗██╔════╝░██╔════╝╚══██╔══╝
+# ██████╔╝███████║██╔██╗██║██║░░██║██║░░██║██╔████╔██║██║░░██╗░███████║██║░░██║██║░░██╗░█████╗░░░░░██║░░░
+# ██╔══██╗██╔══██║██║╚████║██║░░██║██║░░██║██║╚██╔╝██║██║░░╚██╗██╔══██║██║░░██║██║░░╚██╗██╔══╝░░░░░██║░░░
+# ██║░░██║██║░░██║██║░╚███║██████╔╝╚█████╔╝██║░╚═╝░██║╚██████╔╝██║░░██║██████╔╝╚██████╔╝███████╗░░░██║░░░
+# ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░░╚════╝░╚═╝░░░░░╚═╝░╚═════╝░╚═╝░░╚═╝╚═════╝░░╚═════╝░╚══════╝░░░╚═╝░░░
+
+# RandomGadget System -> Gadget!
+# Authors -> RDProject Development Team!
+# Website: https://reduceproject.ru
+
+# Commands: /rg stick; /rg block; /rgreload (permission: rg.reload)
+# Settings -> Config.yml
+settings:
+  debug-stacktrace: false
+  sticks:
+    default: [0]
+    vip: [1, 2, 3, 4]
+    premium: [5, 6, 7, 8, 9, 10, 11, 12]
+    lord: [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+  blocks:
+    default: [0]
+    vip: [1, 2, 3, 4]
+    premium: [5, 6, 7, 8, 9, 10, 11, 12]
+    lord: [13, 14, 15, 16, 17]
+
+messages:
+  # Main
+  prefix: "§8• §6Qursed&eLand §8×§r "
+  internal-error: "§4Internal Error!"
+  no-permission: "§cYou do not have permission!"
+  only-players: "§cOnly players can use this command!"
+  not-available: "§cThis command is not available now!"
+  config-reloaded: "§aYou successfully reloaded configuration!"
+  # Other
+  set-block: "§aYou successfully set random block!"
+  set-stick: "§aYou successfully set random stick!"
+  help: |-
+    §8§m------------ §8• §6Qursed&eLand §8• §8§m------------
+    §7»§r &6/rg help §8× §7Show this message!
+    §7»§r &6/rg stick §8× §7Set randomly stick!
+    §7»§r &6/rg block §8× §7Set randomly block!
+    §8§m------------ §8• §6Qursed&eLand §8• §8§m------------

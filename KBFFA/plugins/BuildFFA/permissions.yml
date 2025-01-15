@@ -1,0 +1,20 @@
+colorchat: buildffa.colorchat
+teaming: buildffa.teaming
+setspawn: buildffa.setspawn
+setstartmap: buildffa.setstartmap
+setdeathheight: buildffa.setdeathheight
+setarenaheight: buildffa.setarenaheight
+stats:
+  setup: buildffa.statssetup
+build: buildffa.build
+item: buildffa.item
+kit:
+  cmd: buildffa.kit
+  create: buildffa.kit.create
+  set: buildffa.kit.set
+  get: buildffa.kit.get
+  remove: buildffa.kit.remove
+  select: buildffa.kit.select
+  setprefix: buildffa.kit.setprefix
+  setsymbol: buildffa.kit.setsymbol
+  setdefault: buildffa.kit.setdefault

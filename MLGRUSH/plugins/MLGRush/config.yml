@@ -1,0 +1,40 @@
+offline_mode: false
+admin_permission: mlgrush.admin
+stick_knockback_level: 1
+pickaxe_efficiency_level: 1
+placeholder_null_value: '-'
+placeholder_loading_value: Loading...
+placeholder_random_value: random
+rounds:
+- 3
+- 5
+- 10
+- 15
+default_rounds: 5
+ranking_update_period: 5.0
+block_amount: 32
+infinite_blocks: true
+map_item_prefix: '&8» &e'
+paste_blocks_per_tick: 20
+default_compressor: BASE64
+default_serializer: JSON
+gzip_compressor_buffer_size: 1024
+send_update_message: true
+stats_item_lore:
+- ' '
+- '&6&l#1 &8» &d%stats_ranking_1% &8| &d&l%stats_wins_1%'
+- '&7&l#2 &8» &d%stats_ranking_2% &8| &d&l%stats_wins_2%'
+- '&c&l#3 &8» &d%stats_ranking_3% &8| &d&l%stats_wins_3%'
+map_item_lore:
+- ' '
+- '&7Mode&8: '
+- '&8» &d%map_mode%'
+- ' '
+- '&7Players&8:'
+- '&8» &d%map_player_1%'
+- '&8» &d%map_player_2%'
+- '&8» &d%map_player_3%'
+- '&8» &d%map_player_4%'
+death_messages: false
+no_hit_delay: false
+block_remove_delay: -1

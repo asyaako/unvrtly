@@ -1,0 +1,42 @@
+#################################
+#     SlashHub Version 1.6.2    #
+#################################
+
+# Need assistance? Have a request? Found a bug?
+# Join our support Discord for help!
+
+# Permissions
+#   slashhub.use - Allows usage of /hub and its according aliases
+#   slashhub.reload - Allows usage of /hubreload
+#   slashhub.bypass - Allows bypassing of /hub being disabled on select servers.
+
+# Target server selection
+# Note that the server(s) you put in MUST be a server that is listed in your velocity config
+
+# Set your lobbys according to the lobbies velocity names
+# You can set more than 2 lobbies!
+TargetServers = [ "hub" ]
+
+# Set servers you want to block access to /hub
+# You can set more than 1 server!
+DisabledServers = [ "example" ]
+
+# This sets the command aliases for the Hub command
+# A RESTART IS REQUIRED TO COMMIT CHANGES TO THIS!
+CommandAliases = [ "lobby", "hub" ]
+
+# Message customization
+# MiniMessage is supported, for tips on using MiniMessage see https://docs.advntr.dev/minimessage/format.html
+ConnectingMessage = "<green>Sending you to Lobby.."
+AlreadyOnHubMessage = "<red>You are already connected to this server!"
+CannotExecuteOnConsoleMessage = "<green>This command can only be executed by a player!"
+ServerNotFound = "<red>It appears that the server you are trying to connect to does not exist. Please contact an Administrator."
+ReloadedPlugin = "<green>Successfully reloaded SlashHub!"
+ServerDisabled = "<red>This command is disabled on this server!"
+
+# Set this to false if you would like /hub to not be permission bound
+# A RESTART IS REQUIRED TO COMMIT CHANGES TO THIS!
+RequireUsePermission = true
+
+#Do not touch this
+Config-Version = 1.1

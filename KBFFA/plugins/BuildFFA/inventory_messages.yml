@@ -1,0 +1,7 @@
+messages:
+  killer:
+    receive: §dUNIVERSALITY §7>> §fYou received a stack of sandstone!
+    noSandstone: §dUNIVERSALITY §7>> §fYou don't have sandstone!
+    enderpearl:
+      default: §dUNIVERSALITY §7>> §fYou received an ender pearl in the 5th slot!
+      random: §dUNIVERSALITY §7>> §fYou received an ender pearl in a random slot!

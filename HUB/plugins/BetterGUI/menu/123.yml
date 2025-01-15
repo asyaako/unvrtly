@@ -1,0 +1,178 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&d&lServer &f&lSelector'
+  rows: 3
+  command: other
+  auto-refresh: 3
+bot:
+  NAME: '&d&lTraining Bot'
+  LORE:
+  - '&f&lJoin!'
+  MATERIAL: sandstone
+  command: "server: rdbot"
+  POSITION-X: 3
+  POSITION-Y: 2
+mlgrush:
+  NAME: '&d&lMLGRush'
+  LORE:
+  - '&f&lJoin! &7[&c&lNEW UPDATE! &7(&d3x1 &d6x1&7&7)]'
+  MATERIAL: stick
+  command: "server: mlgrush"
+  POSITION-X: 5
+  POSITION-Y: 2
+kbffa:
+  NAME: '&d&lKBFFa'
+  LORE:
+  - '&f&lJoin!'
+  MATERIAL: sandstone
+  command: "server: kbffa"
+  POSITION-X: 7
+  POSITION-Y: 2
+1:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 1
+  POSITION-Y: 1
+  DURABILITY: 7
+2:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 2
+  POSITION-Y: 1
+  DURABILITY: 7
+3:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 3
+  POSITION-Y: 1
+  DURABILITY: 7
+4:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 4
+  POSITION-Y: 1
+  DURABILITY: 7
+5:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 5
+  POSITION-Y: 1
+  DURABILITY: 7
+6:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 6
+  POSITION-Y: 1
+  DURABILITY: 7
+7:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 7
+  POSITION-Y: 1
+  DURABILITY: 7
+8:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 8
+  POSITION-Y: 1
+  DURABILITY: 7
+9:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 9
+  POSITION-Y: 1
+  DURABILITY: 7
+10:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 9
+  POSITION-Y: 2
+  DURABILITY: 7
+12:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 2
+  POSITION-Y: 2
+  DURABILITY: 7
+14:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 8
+  POSITION-Y: 2
+  DURABILITY: 7
+16:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 1
+  POSITION-Y: 2
+  DURABILITY: 7
+17:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 9
+  POSITION-Y: 3
+  DURABILITY: 7
+18:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 7
+  POSITION-Y: 3
+  DURABILITY: 7
+19:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 6
+  POSITION-Y: 3
+  DURABILITY: 7
+20:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 5
+  POSITION-Y: 3
+  DURABILITY: 7
+21:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 4
+  POSITION-Y: 3
+  DURABILITY: 7
+22:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 3
+  POSITION-Y: 3
+  DURABILITY: 7
+23:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 1
+  POSITION-Y: 3
+  DURABILITY: 7
+24:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 2
+  POSITION-Y: 3
+  DURABILITY: 7
+25:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 8
+  POSITION-Y: 3
+  DURABILITY: 7
+27:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 4
+  POSITION-Y: 2
+  DURABILITY: 7
+28:
+  NAME: ''
+  MATERIAL: 160
+  POSITION-X: 6
+  POSITION-Y: 2
+  DURABILITY: 7

@@ -1,0 +1,25 @@
+messages:
+  help: |-
+    &8&m------------ &8• &d&lUNIVERSALITY &8• &8&m------------
+    &7»&r &d/blocks help &8× &fShow this message!
+    &7»&r &d/blocksreload &8× &fReload configuration!
+    &7»&r &d/blocks <on/off> &8× &fEnable/Disable BlockRestorer System!
+    &8&m------------ &8• &d&lUNIVERSALITY &8• &8&m------------
+  enable: |-
+    &7»&r &d&lUNIVERSALITY &8× &aEnabled!
+  disable: |-
+    &7»&r &d&lUNIVERSALITY &8× &4Disabled!
+  alreadyon: |-
+    &7»&r &d&lUNIVERSALITY &8× &aAlready enabled!
+  alreadyoff: |-
+    &7»&r &d&lUNIVERSALITY &8× &4Already disabled!  
+  reload: |-
+    &7»&r &d&lUNIVERSALITY &8× &aConfig reloaded!
+  noperm: |-
+    &7»&r &d&lUNIVERSALITY &8× &aYou dont have permission!
+  lobby: |-
+    &7»&r &d&lUNIVERSALITY &8× &aCommand working only in lobby!
+  usehelp: |-
+    &7»&r &d&lUNIVERSALITY &8× &fUnknown command! Use &d/blocks help &7for info!
+  onlyplayers: |-
+    &7»&r &d&lUNIVERSALITY &8× &fOnly playres can use this command!

@@ -1,0 +1,38 @@
+discord:
+  command: /discord
+  type: TEXT
+  text:
+  - '&dUNVRTLY >> &9Discord &7» &fhttps://discord.gg/nvhD4PUyna'
+  permission-required: false
+donate:
+  command: /donate
+  type: TEXT
+  text:
+  - '&dUNVRTLY >> &aDonate &7» shop.unvrtly.ru &f'
+  permission-required: false
+help:
+  command: /help
+  type: TEXT
+  text: 
+  - '&dUNVRTLY >> &4You cannot use this command!'
+  permission-required: false
+pl:
+  command: /pl
+  type: TEXT
+  text: 
+  - '&dUNVRTLY >> &4You cannot use this command!'
+  permission-required: false
+plugins:
+  command: /plugins
+  type: TEXT
+  text: 
+  - '&dUNVRTLY >> &4You cannot use this command!'
+  permission-required: false
+  server:
+  command: /server
+  type: TEXT
+  text: 
+  - '&dUNVRTLY >> &4You cannot use this command!'
+  permission-required: false
+ 
+ 

@@ -1,0 +1,47 @@
+maps:
+  '1': Quartz
+  '2': Grass
+  '3': Castle
+currentmap: Grass
+Quartz:
+  spawn:
+    world: world
+    x: -618.2043756153764
+    y: 78.0
+    z: -323.38958375654386
+    pitch: -4.604183
+    yaw: 90.14453
+  arenaheight: 71.54768500171586
+  deathheight: 20.959431987148683
+Grass:
+  spawn:
+    world: world
+    x: -2000.4618628839446
+    y: 157.0
+    z: -74.33589629791612
+    pitch: 3.5695734
+    yaw: 359.66638
+  arenaheight: 152.20000004768372
+  deathheight: 107.19503136326855
+stats:
+  sign:
+    '1':
+      world: world
+      x: -2000
+      y: 157
+      z: -73
+    '3':
+      world: world
+      x: -2000
+      y: 156
+      z: -74
+Castle:
+  spawn:
+    world: world
+    x: -2782.616398618869
+    y: 152.0
+    z: 907.1711255657136
+    pitch: 0.9631309
+    yaw: -179.74796
+  arenaheight: 145.2801022495946
+  deathheight: 93.9132271494548

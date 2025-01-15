@@ -1,0 +1,169 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+header-footer:
+  enabled: true
+  header:
+  - '&dUNIVERSALITY'
+  - '&fTraining NetWork'
+  - ''
+  footer:
+  - ''
+  - ''
+  - '&fOnline &d%bungee_total%&7/&52024'
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+  disable-condition: '%world%=disabledworld'
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: true
+  unlimited-nametag-mode:
+    enabled: false
+    disable-on-boats: true
+    space-between-lines: true
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-condition: '%world%=disabledworld'
+  case-sensitive-sorting: true
+  sorting-types:
+  - GROUPS:owner,admin,moder,builder,media,lord,prem,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  disable-condition: '%world%=disabledworld'
+  can-see-friendly-invisibles: false
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: Health
+  disable-condition: '%world%=disabledworld'
+  fancy-display-default: NPC
+  fancy-display-players: '&c%health%'
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &bwww.domain.com'
+      announcement-bar: false
+    test:
+      display-condition: permission:tab.bossbar.test;%world%=testworld
+      style: PROGRESS
+      color: WHITE
+      progress: '100'
+      text: test
+      announcement-bar: false
+scoreboard:
+  enabled: false
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  disable-in-worlds:
+  - disabledworld
+  scoreboards:
+    scoreboard1:
+      title: Default
+      lines:
+      - Scoreboard for players
+    twscoreboard:
+      title: TestWorld
+      lines:
+      - This is scoreboard for everyone in testworld world
+      display-condition: '%world%=testworld'
+    admin:
+      display-condition: permission:tab.scoreboard.admin
+      if-condition-not-met: scoreboard1
+      title: Admin scoreboard
+      lines:
+      - Scoreboard for people with permission
+      - tab.scoreboard.admin
+prevent-spectator-effect:
+  enabled: false
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+conditions:
+  health:
+    conditions:
+    - '%health%<21'
+    - '%health%>15'
+    type: AND
+    true: Healthy!
+    false: Damaged!
+placeholders:
+  afk-yes: ' &4*&4&lAFK&4*&r'
+  afk-no: ''
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault-prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+ping-spoof:
+  enabled: false
+layout:
+  enabled: false
+global-playerlist:
+  enabled: false
+use-online-uuid-in-tablist: true
+playerlist-objective:
+  enabled: true
+  value: '%ping%'
+  fancy-value: '&7Ping: %ping%'

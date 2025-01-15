@@ -1,0 +1,25 @@
+# ██████╗░░█████╗░██╗░░░░░██████╗░██╗░░░░░░█████╗░██╗░░░██╗███████╗██████╗░░██████╗
+# ██╔══██╗██╔══██╗██║░░░░░██╔══██╗██║░░░░░██╔══██╗╚██╗░██╔╝██╔════╝██╔══██╗██╔════╝
+# ██████╔╝███████║██║░░░░░██████╔╝██║░░░░░███████║░╚████╔╝░█████╗░░██████╔╝╚█████╗░
+# ██╔═══╝░██╔══██║██║░░░░░██╔═══╝░██║░░░░░██╔══██║░░╚██╔╝░░██╔══╝░░██╔══██╗░╚═══██╗
+# ██║░░░░░██║░░██║███████╗██║░░░░░███████╗██║░░██║░░░██║░░░███████╗██║░░██║██████╔╝
+# ╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═════╝░
+
+# PALPlayers System -> IP Players!
+# Authors -> RDProject Development Team!
+# Website: https://rdproject.net
+
+# Settings -> Config.yml
+settings:
+  short-stacktrace: true
+  admin-permission: "palplayers.admin"
+
+messages:
+  prefix: "§8• §cPALPlayers §8×§7 "
+  internal-error: "&4Internal Error!"
+  no-permission: "§cYou do not have permission!"
+  config-reloaded: "§cYou successfully reloaded configuration!"
+  kick-message: "§8• &4PROTECTION §8•"
+
+players:
+  RDProject: "127.0.0.1"

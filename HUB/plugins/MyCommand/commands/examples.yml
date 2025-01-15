@@ -1,0 +1,31 @@
+discord:
+  command: /discord
+  type: TEXT
+  text:
+  - '&7» &6Qursed&eLand &7» &9Discord &7» &fhttps://dsc.gg/qursedland'
+  permission-required: false
+donate:
+  command: /donate
+  type: TEXT
+  text:
+  - '&7» &6Qursed&eLand &7» &aDonate &7» &fhttps://qursedland.ru'
+  permission-required: false
+help:
+  command: /help
+  type: TEXT
+  text: 
+  - '&6Qursed&eLand &4You cannot use this command!'
+  permission-required: false
+pl:
+  command: /pl
+  type: TEXT
+  text: 
+  - '&6Qursed&eLand &4You cannot use this command!'
+  permission-required: false
+plugins:
+  command: /plugins
+  type: TEXT
+  text: 
+  - '&6Qursed&eLand &4You cannot use this command!'
+  permission-required: false
+ 

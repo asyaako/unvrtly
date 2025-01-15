@@ -1,0 +1,71 @@
+#  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
+# / ___\/   _\/  _ \/  __\/  __//  _ \/  _ \/  _ \/  __\/  _ \
+# |    \|  /  | / \||  \/||  \  | | //| / \|| / \||  \/|| | \|
+# \___ ||  \_ | \_/||    /|  /_ | |_\\| \_/|| |-|||    /| |_/|
+# \____/\____/\____/\_/\_\\____\\____/\____/\_/ \|\_/\_\\____/
+#
+# Scoreboard-r by Rien Bijl
+# rep: github : RienBijl/Scoreboard-revision
+# v: R4 1.1 RELEASE
+
+# Do not edit! The plugin uses this to determine if the configuration is suitable
+config_version: 1
+
+settings:
+  # The driver is the Scoreboard implementation used to display the user
+  # Old drivers will from now on remain supported so that switching back to
+  # an older (perhaps more stable) version is easy.
+  driver: SCOREBOARD_DRIVER_V1
+  # Should we check updates? Caution! Disabling this is not recommended
+  # you might miss awesome updates *wink*
+  check-updates: true
+
+# In what worlds should we disable scoreboard?
+disabled-worlds:
+  - 'non_existant_world'
+
+board:
+  title:
+    interval: 3
+    lines:
+      - '&6Qursed&eLand'
+  rows:
+    1:
+      interval: 80
+      lines:
+        - ''
+    2:
+      interval: 80
+      lines:
+        - '&7» &6Map &7» &e%MAP%'
+    3:
+      interval: 80
+      lines:
+        - '&7» &6Map Timer &7» &e%MINUTES%&8:%SECONDS%%'
+    4:
+      interval: 80
+      lines:
+        - ''
+    5:
+      interval: 80
+      lines:
+        - '&7» &6Kills &7» &e%KILLS%'
+    6:
+      interval: 80
+      lines:
+        - '&7» Players &7» &e%ONLINEPLAYERS%&8/&6%MAXPLAYERS%'
+    7:
+      interval: 80
+      lines:
+        - '&7» &6Teaming &7» &e%STATE%'
+    8:
+      interval: 80
+      lines:
+        - ''
+    8:
+      interval: 80
+      lines:
+        - '&7» &7QursedLand.Fun'
+
+        
+        

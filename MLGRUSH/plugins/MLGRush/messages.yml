@@ -1,0 +1,70 @@
+prefix: '&8» &d&lUNIVERSALITY &8| &7'
+no_permission: '&cYou don''t have permission to execute this command!'
+build_mode_on: '&aYou can build now.'
+build_mode_off: '&cYou can no longer build now.'
+queue_join: '&aYou entered the queue.'
+queue_leave: '&aYou left the queue.'
+loading_data: '&cYour data is being loaded, please wait.'
+error: '&cAn error occurred.'
+restart: '&cThis server is restarting.'
+cannot_use_command: '&cYou can''t use this command now.'
+spawn_set: '&aThe spawn has been set.'
+challenge_1: '&d%player% &achallenged you &aon &d%settings_map% &a(&d%settings_rounds%
+  rounds&a).'
+challenge_2: '&aYou challenged %player%.'
+already_challenged: '&cYou already challenged &d%player%&a.'
+already_setting_up_map: '&cYou are already setting up a map.'
+cannot_use_queue: '&cYou cannot enter the queue now.'
+cannot_challenge_players: '&cYou cannot challenge players now.'
+map_generate: '&aGenerating map...'
+break_own_bed: '&cYou cannot break your own bed!'
+gadget_select: '&aYou selected %gadget_name%&a.'
+death: '&c%player_1% &7died.'
+kill: '&c%player_1% &7killed &d%player_2%&7.'
+bed_break: '&c%player_1% &7broke &d%player_2%''s &7bed.'
+game_start: "&8&m------------------------------------&r\n \n   &7Map&8: &d%map_name%\n\
+  \   &7Mode&8: &d%map_mode%\n   &7Rounds&8: &d%map_rounds%\n \n&8&m------------------------------------&r"
+game_end: '&d%winner% &awon the game.'
+loading_progress_action_bar: '&8» &dLoading... &8> &d%progress%%'
+stats_reset: '&7Trying to reset stats...'
+stats_reset_success: '&aThe stats have been successfully reset!'
+unknown_player: '&cPlayer not found.'
+update_available: '&7A new update is available&8: &d%version%'
+sudo_command_player_message: '&cThis command can be executed only from the console.'
+setup_max_command_syntax: '&cНеправильный ввод: /setupmap <2x1, 3x1, 4x1, 6x1> <название>'
+stats_reset_command_syntax: '&cНеправильный ввод: /statsreset <name>'
+setup_icon: '&7Возьмите блок/предмет который будет служить иконкой и введите в чате
+  ''&d&dnext&7''.'
+setup_first_corner: '&7Встаньте на нижнюю левую часть карты и введите в чате ''&dnext&7''.'
+setup_second_corner: '&7Встаньте на верхнюю правую часть карты и введите в чате ''&dnext&7''.'
+setup_max_build_height: '&7Встаньте на высоту на которой будет максимальная высота
+  поставки блока и введите в чате ''&dnext&7''.'
+setup_death_height: '&7Встаньте вниз карты чтобы указать высоту смерти при падении
+  и введите в чате ''&dnext&7''.'
+setup_spectator_spawn: '&7Встаньте на позицию где будут появляться наблюдатели игры
+  и введите в чате ''&dnext&7''.'
+setup_spawn_player_1: '&7Встаньте на позицию появления первого игрока и введите в
+  чате ''&dnext&7''.'
+setup_spawn_player_2: '&7Встаньте на позицию появления второго игрока и введите в
+  чате ''&dnext&7''.'
+setup_spawn_player_3: '&7Встаньте на позицию появления третьего игрока и введите в
+  чате ''&dnext&7''.'
+setup_spawn_player_4: '&7Встаньте на позицию появления четвертого игрока и введите
+  в чате ''&dnext&7''.'
+setup_bed_player_1: '&7Встаньте на нижнюю часть и смотрите на вернюю часть кровати
+  первого игрока и введите в чате ''&dnext&7''.'
+setup_bed_player_2: '&7Встаньте на нижнюю часть и смотрите на вернюю часть кровати
+  второго игрока и введите в чате ''&dnext&7''.'
+setup_bed_player_3: '&7Встаньте на нижнюю часть и смотрите на вернюю часть кровати
+  третьего игрока и введите в чате ''&dnext&7''.'
+setup_bed_player_4: '&7Встаньте на нижнюю часть и смотрите на вернюю часть кровати
+  четвертого игрока и введите в чате ''&dnext&7''.'
+setup_finish: '&aВы завершили установку карты!'
+setup_spawn_player_5: '&7Встаньте на позицию появления пятого игрока и введите в чате
+  ''&dnext&7''.'
+setup_spawn_player_6: '&7Встаньте на позицию появления шестого игрока и введите в
+  чате ''&dnext&7''.'
+setup_bed_player_5: '&7Встаньте на нижнюю часть и смотрите на вернюю часть кровати
+  пятого игрока и введите в чате ''&dnext&7''.'
+setup_bed_player_6: '&7Встаньте на нижнюю часть и смотрите на вернюю часть кровати
+  шестого игрока и введите в чате ''&dnext&7''.'

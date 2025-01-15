@@ -1,0 +1,74 @@
+########################################################
+###################--MiniEssentials--###################
+########################################################
+ 
+ 
+no_permission: '&6Qursed&eLand &7» &cYou do not have permission!'
+ 
+# FlyCommand messages
+flycommand_enabled: '&6Qursed&eLand &7» &fYou have &aenabled &7fly!'
+flycommand_disabled: '&6Qursed&eLand &7» &fYou have &cdisabled &7fly!'
+flycommand_no_player_found: '&6Qursed&eLand &7» &cThat player is not online!'
+flycommand_usage_message: '&6Qursed&eLand &7» &cPlease use /fly <player>'
+flycommand_other_enabled: '&6Qursed&eLand &7» &fYou have &aenabled &7fly for '
+flycommand_other_disabled: '&6Qursed&eLand &7» &fYou have &cdisabled &7fly for '
+ 
+# /night and /day messages
+day_message: '&6Qursed&eLand &7» &fThe world time is now &aday!'
+night_message: '&6Qursed&eLand &7» &fThe world time is now &anight!'
+ 
+# /kill messages
+killcommand_killed: '&6Qursed&eLand &7» &fYou have been killed!'
+killcommand_usage_message: '&6Qursed&eLand &7» &cPlease use /kill <player>'
+killcommand_no_player_found: '&6Qursed&eLand &7» &cThat player is not online!'
+killcommand_player_killed: '&6Qursed&eLand &7» &fYou killed '
+ 
+# /heal messages
+healcommand_healed: '&6Qursed&eLand &7» &fYou have been healed!'
+healcommand_heal_player: '&6Qursed&eLand &7» &fYou healed '
+healcommand_no_player_found: '&6Qursed&eLand &7» &cThat player is not online!'
+healcommand_usgae_message: '&6Qursed&eLand &7» &cPlease use /heal <player>'
+ 
+# /gamemode messages
+gamemode_updated: '&6Qursed&eLand &7» &fYour gamemode has been updated!'
+gamemode_updated_player: '&6Qursed&eLand &7» &fYou updated gamemode for '
+gamemode_no_player_found: '&6Qursed&eLand &7» &cThat player is not online!'
+gamemodea_usage_message: '&6Qursed&eLand &7» &cPlease use /gma <player>'
+gamemodesp_usage_message: '&6Qursed&eLand &7» &cPlease use /gmsp <player>'
+gamemodeas_usage_message: '&6Qursed&eLand &7» &cPlease use /gms <player>'
+gamemodeac_usage_message: '&6Qursed&eLand &7» &cPlease use /gmc <player>'
+ 
+# /speed messages
+speed_1: '&6Qursed&eLand &7» &fYour speed is now 1!'
+speed_2: '&6Qursed&eLand &7» &fYour speed is now 2!'
+speed_3: '&6Qursed&eLand &7» &fYour speed is now 3!'
+speed_4: '&6Qursed&eLand &7» &fYour speed is now 4!'
+speed_5: '&6Qursed&eLand &7» &fYour speed is now 5!'
+speed_6: '&6Qursed&eLand &7» &fYour speed is now 6!'
+speed_7: '&6Qursed&eLand &7» &fYour speed is now 7!'
+speed_8: '&6Qursed&eLand &7» &fYour speed is now 8!'
+speed_9: '&6Qursed&eLand &7» &fYour speed is now 9!'
+speed_10: '&6Qursed&eLand &7» &fYour speed is now 10!'
+speed_usage_message: '&6Qursed&eLand &7» &cPlease use /speed <number>'
+speed_normal: '&6Qursed&eLand &7» &fYou are now at normal speed!'
+speed_other_normal_1: '&6Qursed&eLand &7» &fYou set '
+speed_other_normal_2: '&6Qursed&eLand &7» &fto normal speed!'
+ 
+# /weather messages
+sun_usage_message: '&6Qursed&eLand &7» &cPlease use /sun'
+rain_usage_message: '&6Qursed&eLand &7» &cPlease use /rain'
+thunder_usage_message: '&6Qursed&eLand &7» &cPlease use /thunder'
+weather_usage_message: '&6Qursed&eLand &7» &cPlease use /weather thunder/clear/rain'
+weather_clear: '&6Qursed&eLand &7» &fYou changed the weather to clear!'
+weather_rain: '&6Qursed&eLand &7» &fYou changed the weather to rain!'
+weather_thunder: '&6Qursed&eLand &7» &fYou changed the weather to thunder!'
+ 
+# /clearchat message
+clearchat_message: '&6Qursed&eLand &7» &fThe chat has been cleared!'
+
+# DeathMessages
+you_have_killed_message: '&6Qursed&eLand &7» &fYou have killed&6 '
+you_have_been_killed_message: '&6Qursed&eLand &7» &fYou have been killed by&c '
+ 
+# /clearchat message
+clearchat_message: '&6Qursed&eLand &7» &fThe chat has been cleared!'

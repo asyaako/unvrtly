@@ -1,0 +1,31 @@
+colorchat: false
+startmap: Grass
+stats: true
+statswalldirection: EAST/NORTH/SOUTH/WEST
+lobbyitem: false
+lobbyitemcommand: HUB
+kits: true
+hunger: false
+weather: false
+scoreboard: true
+teaming: false
+mapchange: true
+mapchangedelaysek: 600
+displayname:
+  chat: false
+  deaths: false
+  killstreak: false
+  joinmessage: false
+  quitmessage: false
+join-quit-message: false
+message:
+  playerdeath: false
+  playerkill: true
+  killstreak: true
+mysql:
+  support: false
+  host: host
+  port: port
+  database: database
+  username: username
+  password: password

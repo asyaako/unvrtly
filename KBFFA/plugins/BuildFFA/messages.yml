@@ -1,0 +1,194 @@
+prefix: '&dUNIVERSALITY &7>> '
+chatmessage: '&7%PLAYER%: &7'
+joinmessage: '&7%PLAYER%'
+quitmessage: '&7%PLAYER%'
+nopermission: '&уNo rights.'
+scoreboard:
+  map:
+    score: '&7┏ &dMap&7:'
+    prefix: '&7┗'
+    entry: '&5'
+    suffix: ' %MAP%'
+  mapchange:
+    score: '&7┏ &dMap Timer&7:'
+    prefix: '&7┗'
+    entry: '&5'
+    suffix: ' %MINUTES%:%SECONDS% &dmin'
+  online:
+    score: '&7┏ &dPlayers&7:'
+    prefix: '&7┗'
+    entry: '&d'
+    suffix: ' %ONLINEPLAYERS%&8/&5%MAXPLAYERS%'
+  kills:
+    score: '&7┏ &dKills&7:'
+    prefix: '&7┗'
+    entry: '&5'
+    suffix: ' %KILLS%'
+  teaming:
+    score: '&7┏ &dTeaming&7:'
+    prefix: '&7┗'
+    entry: '&5'
+    suffix: ' %STATE% &d'
+mapchanged: '&eThe map has been changed to &d%NEWMAP% '
+mapnotchanged: '&уThe map has not changed and is not outdated'
+mapchange:
+  '01': '&fThe map changes after &e3'
+  '02': '&fThe map changes after &e2'
+  '03': '&fThe map changes after &e1'
+teaming:
+  'true': ✓
+  'false': ✗
+  '01': '&fTeaming is prohibited!'
+  '02': '&fTeaming up is now allowed!'
+  '03': '&fPlease use team &dmembership'
+player:
+  killall: '&fThe player &d%PLAYER% &fwas killed &c%KILLER% &f'
+  kill: '&fYou were killed &4%KILLER%&0(&c%KILLERHEALTH%❤&0)'
+  death: '&fThe player&d%PLAYER% &dis dead!'
+  killstreak: '&fThe player &d%PLAYER% &fhas achieved a series of kills! &7[&4%KILLSTREAK%&7]
+    &ferreicht!'
+  killstreakbroken: '&fThe &d%PLAYER% &fkilling streak was completed by THE &c%KILLER% &7[&d%KILLSTREAK%&7]&f!'
+nostartmap:
+  '01': '&7Es wurde &ckeine Startmap &7gefunden. Setze diese mit &d/setstartmap [Map-Name]&7.'
+  '02': '&7Falls du noch keine Map erstellt hast nutze &d/setspawn [Map-Name]&7.'
+  '03': '&7Nachdem du eine Map erstellt hast setze die Deathheight deiner Map (Höhe
+    ab der man sterben soll) &d/setdeathheight &7sowie die Arenaheight (Höhe ab der
+    man sein Kit erhält) &d/setarenaheight &7gehe dazu in den &aBuildmode &d/build'
+nodeathheight:
+  '01': '&cKeine Deathheight.'
+  '02': '&7Setze die Deathheight deiner Map (Höhe ab der man sterben soll) &d/setdeathheight
+    &7gehe dazu in den &aBuildmode &d/build'
+noarenaheight:
+  '01': '&cKeine Arenaheight.'
+  '02': '&7Setze die Arenaheight deiner Map (Höhe ab der man sein Kit erhält) &d/setarenaheight
+    &7gehe dazu in den &aBuildmode &d/build'
+nodefaultkit:
+  '01': '&cKein Default-Kit'
+  '02': '&7Setze ein Default-Kit (Kit welches man ohne ausgewähltes Kit erhält) &d/kit
+    setdefault'
+nokitselection:
+  admin: '&7Es wurde noch &ckein Kit gewählt &7welches in der Kitauswahl vorhanden
+    sein soll. Setze eins mit &d/kit select'
+  user: '&cKeine Kits vorhanden.'
+nokitsymbol: '&7Ein Kit, welches selected wurde, hat &cnoch kein Symbol&7. Setze dies
+  während du das Symbol(ein Item) in der Hand hälst &d/kit setsymbol'
+nokitprefix: '&7Ein Kit, welches selected wurde, hat &cnoch keinen Prefix&7. Setze
+  einen mit &d/kit setprefix'
+nokitselected: '&cKein Kit ausgewählt.'
+setspawn:
+  '01': '&7Du hast den &aSpawn für die Map &c%MAP% &7gesetzt.'
+  '02': '&7Bitte nutze &d/setspawn [Map-Name]&7.'
+setstartmap:
+  '01': '&7Du hast die &aStartmap(&c%MAP%&A) &7gesetzt.'
+  '02': '&7Die &aMap &c%MAP% &7konnte &cnicht gefunden &7werden.'
+  '03': '&7Bitte nutze &d/setstartmap [Map-Name]&7.'
+setdeathheight:
+  '01': '&7Du hast die &aTodeshöhe(&c%TODESHÖHE%&a) für die Map &c%MAP% &7gesetzt.'
+  '02': '&7Die &aMap &c%MAP% &7konnte &cnicht gefunden &7werden.'
+  '03': '&7Bitte nutze &d/setdeathheight [Map-Name]&7.'
+setarenaheight:
+  '01': '&7Du hast die &aArenahöhe(&c%ARENAHÖHE%&a) für die Map &c%MAP% &7gesetzt.'
+  '02': '&7Die &aMap &c%MAP% &7konnte &cnicht gefunden &7werden.'
+  '03': '&7Bitte nutze &d/setarenaheight [Map-Name]&7.'
+build:
+  '01': '&7Du bist nun im &aBuildmode&7.'
+  '02': '&7Du bist nun &cnicht mehr &7im &aBuildmode&7.'
+  '03': '&7Der &ASpieler &c%TARGET% &7ist nun im &ABuildmode&7.'
+  '04': '&7Der &aSpieler &c%PLAYER% &7hat dich in den &aBuildmode &7gesetzt.'
+  '05': '&7Der &aSpieler &c%TARGET% &7ist nun &cnicht mehr &7im &aBuildmode&7.'
+  '06': '&7Der &aSpieler &c%PLAYER% &7hat dich &caus dem &aBuildmode &7gesetzt.'
+  '07': '&7Der &aSpieler &c%TARGET% &7konnte &cnicht gefunden &7werden.'
+  '08': '&7Bitte nutze &d/build [Spieler-Name]&7.'
+  info: '&7Du befindest dich noch im &aBuildmode&7, um ihn zu verlassen nutze &d/build&7.'
+kit:
+  deactivated: '&cDie Kits sind deaktiviert.'
+  create:
+    '01': '&aKit wurde erstellt.'
+    '02': '&7Dieses &aKit &c%KIT% &7ist &cbereits vorhanden&7.'
+  set:
+    '01': '&aKit gesetzt.'
+    '02': '&7Das &aKit &c%KIT% &7konnte &cnicht gefunden &7werden.'
+  get:
+    '01': '&7Du hast das &aKit &c%KIT% &7erhalten'
+    '02': '&7Das &aKit &c%KIT% &7enthält &ckeine Items&7.'
+  remove:
+    '01': '&aKit &c%KIT% &aentfernt.'
+    '02': '&7Das &aKit &c%KIT% &7konnte &cnicht gefunden &7werden.'
+  select:
+    '01': '&aKit ausgewählt.'
+    '02': '&7Das &aKit &c%KIT% &7enthält &ckeine Items&7.'
+    '03': '&7Bitte nutze &d/kit select [Kit-Name] [(Position) 1-4]&7.'
+  setprefix:
+    '01': '&aKit-Prefix &c%PREFIX% &7für das &aKit &c%KIT% &7gesetzt.'
+    '02': '&7Dass &aKit &c%KIT% &7konnte &cnicht gefunden &7werden.'
+  setsymbol:
+    '01': '&aKit-Symbol &c%SYMBOL% &7für das &aKit &c%KIT% &7gesetzt.'
+    '02': '&7Bitte halte ein &aItem &7in der Hand.'
+    '03': '&7Das &aKit &c%KIT% &7konnte &cnicht gefunden &7werden.'
+  setdefault:
+    '01': '&dThe default kit is set.'
+    '02': '&dhe kit &e%KIT% &dcould not be found'
+  cmd:
+    '01': '&0═════════════════════════════'
+    '02': '&0► &aBitte nutze:            &cFragen? &d/kit help'
+    '03': '&0► &d/kit create [Kit-Name]'
+    '04': '&0► &d/kit set [Kit-Name]'
+    '05': '&0► &d/kit get [Kit-Name]'
+    '06': '&0► &d/kit remove [Kit-Name]'
+    '07': '&0► &d/kit setsymbol [Kit-Name]'
+    '08': '&0► &d/kit setdefault [Kit-Name]'
+    '09': '&0► &d/kit setprefix [Kit-Name] [Kit-Prefix]'
+    '10': '&0► &d/kit select [Kit-Name] [(Position) 1-4]'
+    '11': '&0═════════════════════════════'
+  help:
+    '01': '&0═════════════════════════════'
+    '02': ' &0► &7Kit ertellen: &d/kit create'
+    '03': ' &0► &7Eigene Hotbar und eigene Rüstung '
+    '04': '   &7einem Kit zuweisen: &d/kit set'
+    '05': ' &0► &7Kit erhalten: &d/kit get'
+    '06': ' &0► &7Kit entfernen: &d/kit remove'
+    '07': ' &0► &7Standartkit setzten: &d/kit setdefault'
+    '08': ' &0► &7Dem Kit einen Prefix zuweisen, welcher'
+    '09': '   &7im Kits-Menü vorkommt: &d/kit setprefix'
+    '10': ' &0► &7Dem Kit ein Symbol in Form von einem'
+    '11': '   &7Item, welches sich in der Hand befinden'
+    '12': '   &7muss, zuweisen: &d/kit setsymbol'
+    '13': ' &0► &7Kits auswählen, welche im Kits-Menü'
+    '14': '   &7vorhanden sein sollen: &d/kit select'
+    '15': '&0═════════════════════════════'
+stats:
+  deactivated: '&cDie Stats sind deaktiviert.'
+  '01': '&e═════════════════'
+  '02': ' &0 &eStats ► &d%PLAYER%'
+  '03': ' &0► &eKills: &d%KILLS%'
+  '04': ' &0► &eDeaths: &d%DEATHS%'
+  '05': ' &0► &eKD: &d%K/D%'
+  '06': '&e═════════════════'
+  '07': '&7Der &aSpieler &c%TARGET% &7konnte &cnicht gefunden &7werden.'
+  '08': '&dPlease use &e/stats [Spieler-Name]&d.'
+  setup:
+    '01': '&dPlease use &e/stats setsign [Platz(1-3)]&d.'
+item:
+  list:
+    '01': '&0═══════════'
+    '02': '&0► &dEnterhaken:'
+    '03': '    &7Itemname: (Farbcode: ROT:c) Enterhaken'
+    '04': '    &7Itemmaterial: FISHING_ROD'
+    '05': '    &7unbreakable: true'
+    '06': '&0► &dJump:'
+    '07': '    &7Itemname: (Farbcode: ROT:c) Jump'
+    '08': '    &7Itemmaterial: FEATHER'
+    '09': '    &7unbreakable: true'
+    '10': '&0═══════════'
+  cmd: '&7Bitte nutze &d/item [unbreakable/rename/lore]'
+  cmd2: '&7Special-Items -> &d/item list'
+  rename:
+    '01': '&7Item erfolgreich zu &d%NEWNAME% &7umbenannt.'
+    '02': '&7Bitte nutze &d/item rename [Name]'
+  hand: '&7Halte ein &dItem &7in der Hand.'
+  unbreakable:
+    '01': '&7Dein Item ist nun &dunbreakable.'
+    '02': '&7Bitte nutze &d/item unbreakable'
+  lore:
+    '01': '&7Itemlore erfolgreich zu &d%LORE% &7gesetzt.'
+    '02': '&7Bitte nutze &d/item lore [Lore]'
